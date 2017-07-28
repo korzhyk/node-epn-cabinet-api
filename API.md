@@ -1,3 +1,19 @@
+## Classes
+
+<dl>
+<dt><a href="#EPNApi">EPNApi</a></dt>
+<dd><p>Class provide API calls to ePN Cabinet</p>
+</dd>
+</dl>
+
+## Constants
+
+<dl>
+<dt><a href="#AVAILABLE_STATS">AVAILABLE_STATS</a> : <code>Array</code></dt>
+<dd><p>Avaliable types of stats</p>
+</dd>
+</dl>
+
 <a name="EPNApi"></a>
 
 ## EPNApi
@@ -85,3 +101,9 @@ Clear all pendings requests
 Fetch all pendings requests
 
 **Kind**: instance method of [<code>EPNApi</code>](#EPNApi)  
+<a name="AVAILABLE_STATS"></a>
+
+## AVAILABLE_STATS : <code>Array</code>
+Avaliable types of stats
+
+**Kind**: global constant  

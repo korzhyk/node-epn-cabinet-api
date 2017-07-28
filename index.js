@@ -10,6 +10,10 @@ const API_TIMEOUT = 60000
 const API_KEY = Symbol('api_key')
 const SECRET_KEY = Symbol('secret_key')
 
+/**
+ * Avaliable types of stats
+ * @type {Array}
+ */
 const AVAILABLE_STATS = [
   'day',
   'sub',
