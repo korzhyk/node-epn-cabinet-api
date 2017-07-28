@@ -11,7 +11,7 @@ const API_KEY = Symbol('api_key')
 const SECRET_KEY = Symbol('secret_key')
 
 /**
- * Avaliable types of stats
+ * Avaliable types of stats, default is "day"
  * @type {Array}
  */
 const AVAILABLE_STATS = [
@@ -114,7 +114,7 @@ class EPNApi {
         ~AVAILABLE_STATS.indexOf(by),
         `Wrong statistics type: "${by}",
         available types is: ${AVAILABLE_STATS}`)
-    } else {      
+    } else {
       params = by
       by = AVAILABLE_STATS[0] // Set to default "day"
     }
@@ -161,7 +161,7 @@ class EPNApi {
    */
   exec () {
     if (this.requests.length < 1) {
-      return Promise.resolve([]) 
+      return Promise.resolve([])
     }
 
     const body = JSON.stringify({
