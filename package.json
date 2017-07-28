@@ -1,0 +1,22 @@
+{
+  "name": "epn-cabinet-api",
+  "version": "1.0.0",
+  "description": "ePN Cabinet API",
+  "main": "index.js",
+  "repository": "https://github.com/korzhyk/node-epn-cabinet-api.git",
+  "author": "Andrii Korzh",
+  "license": "MIT",
+  "engine": {
+    "node": ">= 0.11"
+  },
+  "dependencies": {
+    "request": "^2.81.0"
+  },
+  "devDependencies": {
+    "expect.js": "^0.3.1",
+    "mocha": "^3.4.2"
+  },
+  "scripts": {
+    "test": "mocha test.js"
+  }
+}
