@@ -127,7 +127,7 @@ class EPNApi {
         offer_type: '',
         currency: 'USD',
         page: 1,
-        per_page: 20
+        per_page: 50
       },
       params,
       { action: `get_statistics_by_${by}` })
