@@ -1,6 +1,6 @@
 {
   "name": "epn-cabinet-api",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "ePN Cabinet API",
   "main": "index.js",
   "repository": "https://github.com/korzhyk/node-epn-cabinet-api.git",
